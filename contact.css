@@ -1,0 +1,82 @@
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: #0002111a;
+  color: rgb(192, 224, 202);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(10, 3, 87, 0.589);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  text-align: center;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: rgb(110, 223, 195);
+  color: rgb(43, 29, 29);
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: rgb(66, 14, 14);
+  color: white;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #5f0f0f25;
+  padding: 100px;
+  margin:100px;
+  color:aliceblue
+  
+}
+</style>
